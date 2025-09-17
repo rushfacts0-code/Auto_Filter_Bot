@@ -34,9 +34,9 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/56b5deb73f3b132e2bb73.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
-FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/bfea54d7a2c920860331c-63660eeff49b2b3498.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/cd8a38a7faf563e66fd99-9b0d740742deeaa30a.jpg'))
+FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/9a831688fc17466dfdc0a-486f5c24d906ed811b.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
 
 # ============================
 # Admin, Channels & Users Configuration
@@ -47,9 +47,9 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002988561117'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002852175362'))  # Bin channel id (make sure bot is admin)
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002852175362'))  # Premium logs channel id
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-100').split()] #(make sure bot is admin)
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1003004121241').split()] #(make sure bot is admin)
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002860266124')  # Support group id (make sure bot is admin)
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002837642549')  # Request channel id (make sure bot is admin)
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1003046434557')  # Request channel id (make sure bot is admin)
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/allapkmodchat')  # Support group link (make sure bot is admin)
 
 # FORCE_SUB 
@@ -59,7 +59,7 @@ auth_channels     = environ.get("AUTH_CHANNELS", "-1002837642549 -1002549725870"
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg')    # QR code image for payments
+QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/cd8a38a7faf563e66fd99-9b0d740742deeaa30a.jpg')    # QR code image for payments
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'ɴᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ʀɪɢʜᴛ ɴᴏᴡ')    # Owner UPI ID for payments
 
 STAR_PREMIUM_PLANS = {
