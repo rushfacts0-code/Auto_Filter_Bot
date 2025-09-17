@@ -31,9 +31,9 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 #Making it false will not save caption in db SO you can save some storage space
 
 
-PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
-MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/56b5deb73f3b132e2bb73.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/bfea54d7a2c920860331c-63660eeff49b2b3498.jpg https://graph.org/file/a6d49505fe90bc492e0f7-b0a9ffcd46a4400534.jpg https://graph.org/file/61b3e842d734fb89caf8c-e7e27195172f955cd1.jpg https://graph.org/file/493e6b664fc531f210074-04b55d01c3abc10cf0.jpg')).split()  # Sample pic
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/493e6b664fc531f210074-04b55d01c3abc10cf0.jpg")
+MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/493e6b664fc531f210074-04b55d01c3abc10cf0.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/bfea54d7a2c920860331c-63660eeff49b2b3498.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/cd8a38a7faf563e66fd99-9b0d740742deeaa30a.jpg'))
 FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/9a831688fc17466dfdc0a-486f5c24d906ed811b.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
@@ -73,8 +73,8 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "")  # MongoDB URI for the database
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0") # Database name (default: cluster)
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Rishubhai2:Rishubhai2@rishubhai2.gefsdls.mongodb.net/?retryWrites=true&w=majority&appName=Rishubhai2")  # MongoDB URI for the database
+DATABASE_NAME = environ.get('DATABASE_NAME', "Rishubhai2") # Database name (default: cluster)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'dreamcinezone_files') # Collection name (default: dreamcinezone_files)
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
